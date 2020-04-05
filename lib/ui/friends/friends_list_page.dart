@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_buddies/ui/frienddetails/friend_details_page.dart';
 import 'package:flutter_buddies/ui/friends/friend.dart';
+import 'dart:io';
+
 
 class FriendsListPage extends StatefulWidget {
   @override
@@ -41,6 +43,14 @@ class _FriendsListPageState extends State<FriendsListPage> {
     return new AppBar(
       centerTitle: true,
       title: _appBarTitle,
+      actions: <Widget>[
+            // action button
+            IconButton(
+              icon: new Icon(Icons.exit_to_app),
+              onPressed: () {
+                  exit(0);
+              },
+            )],
       leading: new IconButton(
         icon: _searchIcon,
         onPressed: _searchPressed,
