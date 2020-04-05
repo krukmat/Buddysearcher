@@ -8,4 +8,5 @@ ios/.generated/
 packages
 pubspec.lock
 .flutter-plugins
-.dart-tool/
+.dart_tool/
+android.old/

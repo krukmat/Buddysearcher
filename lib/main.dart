@@ -12,7 +12,7 @@ class FriendsHomePage extends StatelessWidget {
     return new MaterialApp(
       theme: new ThemeData(
         primarySwatch: Colors.blue,
-        accentColor: const Color(0xFFF850DD),
+        accentColor: Colors.white,
       ),
       home: new FriendsListPage(),
     );
