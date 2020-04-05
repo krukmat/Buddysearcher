@@ -69,9 +69,9 @@ class FriendDetailBody extends StatelessWidget {
           padding: const EdgeInsets.only(top: 16.0),
           child: new Row(
             children: <Widget>[
-              _createCircleBadge(Icons.beach_access, theme.accentColor),
-              _createCircleBadge(Icons.cloud, Colors.white12),
-              _createCircleBadge(Icons.shop, Colors.white12),
+             // _createCircleBadge(Icons.beach_access, theme.accentColor),
+              //_createCircleBadge(Icons.cloud, Colors.white12),
+              //_createCircleBadge(Icons.shop, Colors.white12),
             ],
           ),
         ),

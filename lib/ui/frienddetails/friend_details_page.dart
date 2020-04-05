@@ -26,8 +26,8 @@ class _FriendDetailsPageState extends State<FriendDetailsPage> {
         begin: FractionalOffset.centerRight,
         end: FractionalOffset.bottomLeft,
         colors: <Color>[
-          const Color(0xFF413070),
-          const Color(0xFF2B264A),
+          Colors.blue,
+          Colors.white,
         ],
       ),
     );

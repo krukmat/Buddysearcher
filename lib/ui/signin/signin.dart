@@ -20,6 +20,7 @@ class LoginPage extends StatefulWidget {
 class LoginPageState extends State<LoginPage> {
   String _status = 'no-action';
   String _username, _password;
+   static const BACKGROUND_IMAGE = 'images/background.png';
 
   final formKey = GlobalKey<FormState>();
   final _scaffoldKey = GlobalKey<ScaffoldState>();
@@ -51,6 +52,7 @@ class LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
+    var screenWidth = MediaQuery.of(context).size.width;
     final _auth = Provider.of<AuthModel>(context, listen: true);
     return Scaffold(
       key: _scaffoldKey,
@@ -63,10 +65,12 @@ class LoginPageState extends State<LoginPage> {
               height: 220.0,
               child: Padding(
                   padding: EdgeInsets.all(16.0),
-                  child: Icon(
-                    Icons.person,
-                    size: 175.0,
-                  )),
+                  child: new Image.asset(
+                      BACKGROUND_IMAGE,
+                      width: 77,
+                      height: 120.0,
+                      fit: BoxFit.fitHeight,
+                    )),
             ),
             Form(
               key: formKey,

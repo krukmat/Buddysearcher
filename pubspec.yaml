@@ -27,6 +27,7 @@ flutter:
   uses-material-design: true
   assets:
     - images/profile_header_background.png
+    - images/background.png
     - images/portfolio_1.jpeg
     - images/portfolio_2.jpeg
     - images/portfolio_3.jpeg

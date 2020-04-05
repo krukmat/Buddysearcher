@@ -4,7 +4,7 @@ import 'package:flutter_mates/ui/friends/friend.dart';
 import 'package:meta/meta.dart';
 
 class FriendDetailHeader extends StatelessWidget {
-  static const BACKGROUND_IMAGE = 'images/profile_header_background.png';
+  static const BACKGROUND_IMAGE = 'images/background.png';
 
   FriendDetailHeader(
     this.friend, {
@@ -21,10 +21,9 @@ class FriendDetailHeader extends StatelessWidget {
       new Image.asset(
         BACKGROUND_IMAGE,
         width: screenWidth,
-        height: 280.0,
+        height: 120.0,
         fit: BoxFit.cover,
       ),
-      color: const Color(0xBB8338f4),
     );
   }
 
@@ -47,13 +46,13 @@ class FriendDetailHeader extends StatelessWidget {
       child: new Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          new Text('90 Following', style: followerStyle),
+          /*new Text('90 Following', style: followerStyle),
           new Text(
             ' | ',
             style: followerStyle.copyWith(
                 fontSize: 24.0, fontWeight: FontWeight.normal),
           ),
-          new Text('100 Followers', style: followerStyle),
+          new Text('100 Followers', style: followerStyle),*/
         ],
       ),
     );
@@ -70,19 +69,14 @@ class FriendDetailHeader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           _createPillButton(
-            'HIRE ME',
-            backgroundColor: theme.accentColor,
+            'CONTACT ME',
+            backgroundColor: Colors.blue,
           ),
-          new DecoratedBox(
-            decoration: new BoxDecoration(
-              border: new Border.all(color: Colors.white30),
-              borderRadius: new BorderRadius.circular(30.0),
-            ),
-            child: _createPillButton(
-              'FOLLOW',
+          _createPillButton(
+              'FOLLOW @Twitter',
               textColor: Colors.white70,
-            ),
-          ),
+              backgroundColor: Colors.blue,
+            )
         ],
       ),
     );
@@ -112,7 +106,7 @@ class FriendDetailHeader extends StatelessWidget {
 
     return new Stack(
       children: <Widget>[
-        _buildDiagonalImageBackground(context),
+        //_buildDiagonalImageBackground(context),
         new Align(
           alignment: FractionalOffset.bottomCenter,
           heightFactor: 1.4,
