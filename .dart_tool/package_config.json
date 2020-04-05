@@ -356,13 +356,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "flutter_mates",
+      "name": "flutter_buddies",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     }
   ],
-  "generated": "2020-04-05T09:32:21.718826Z",
+  "generated": "2020-04-05T11:08:06.440122Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
