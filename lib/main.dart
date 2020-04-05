@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mates/ui/friends/friends_list_page.dart';
-import 'package:flutter_mates/data/models/auth.dart';
+import 'package:flutter_buddies/ui/friends/friends_list_page.dart';
+import 'package:flutter_buddies/data/models/auth.dart';
 import 'package:persist_theme/persist_theme.dart';
 import 'package:provider/provider.dart';
 import 'ui/signin/signin.dart';

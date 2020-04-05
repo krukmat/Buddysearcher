@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mates/ui/frienddetails/footer/friend_detail_footer.dart';
-import 'package:flutter_mates/ui/frienddetails/friend_detail_body.dart';
-import 'package:flutter_mates/ui/frienddetails/header/friend_detail_header.dart';
-import 'package:flutter_mates/ui/friends/friend.dart';
+import 'package:flutter_buddies/ui/frienddetails/footer/friend_detail_footer.dart';
+import 'package:flutter_buddies/ui/frienddetails/friend_detail_body.dart';
+import 'package:flutter_buddies/ui/frienddetails/header/friend_detail_header.dart';
+import 'package:flutter_buddies/ui/friends/friend.dart';
 import 'package:meta/meta.dart';
 
 class FriendDetailsPage extends StatefulWidget {

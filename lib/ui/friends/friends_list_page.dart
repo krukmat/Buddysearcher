@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_mates/ui/frienddetails/friend_details_page.dart';
-import 'package:flutter_mates/ui/friends/friend.dart';
+import 'package:flutter_buddies/ui/frienddetails/friend_details_page.dart';
+import 'package:flutter_buddies/ui/friends/friend.dart';
 
 class FriendsListPage extends StatefulWidget {
   @override
