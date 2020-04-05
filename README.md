@@ -1,4 +1,4 @@
 # Buddy Searcher
-
+![alt text](http://url/to/readme.png)
 All code resides in the [/lib folder]
-**there's no Android / iOS specific code needed**.
+**It works for IOS/Android**.
